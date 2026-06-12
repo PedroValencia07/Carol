@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+    <title>FELIZ CUMPLEAÑOSSSS</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="mobile.css"
+      media="only screen and (max-width: 768px)"
+    />
+  </head>
+  <body>
+    <!--Confeti Atras-->
+    <canvas id="canvas1"></canvas>
+
+    <div class="contenedor">
+      <!-- PortaRetrato -->
+      <div class="portaretrato-torta-caja">
+        <div class="portaretrato">
+          <div class="marco">
+            <img src="recursos/cumpleañero.png" alt="Foto" />
+          </div>
+          <div class="soporte-marco"></div>
+        </div>
+
+        <!--Torta De Cumpleaños-->
+        <div class="torta-cumpleaños">
+          <div class="torta">
+            <div class="chocolate"></div>
+          </div>
+          <div class="vela"></div>
+          <div class="llama"></div>
+        </div>
+
+        <!--Caja De Regalo-->
+        <div class="caja-wrapper">
+          <div class="caja">
+            <div class="cinta-de-regalo">
+              <div class="cinta-de-regalo-izquierda"></div>
+              <div class="cinta-de-regalo-derecha"></div>
+              <div class="cinta-de-regalo-centro"></div>
+            </div>
+            <div class="regalos">
+              <div class="regalo-sombra"></div>
+            </div>
+            <div class="regalo"></div>
+            <div class="icono-estrella estrella1"></div>
+            <div class="icono-estrella estrella2"></div>
+            <div class="icono-estrella estrella3"></div>
+            <div class="icono-estrella estrella4"></div>
+            <div class="icono-estrella estrella5"></div>
+          </div>
+        </div>
+
+        <img
+          class="happy-birthday"
+          src="recursos/ck.png"
+          alt="Feliz cumpleaños"
+          aria-label="Feliz cumpleaños"
+        />
+
+        <img
+          class="imagen-extra"
+          src="recursos/jk.png"
+          alt="Decoración adicional"
+          aria-label="Decoración adicional"
+        />
+
+        <div class="texto-cumpleanos">캐롤, 생일 축하해🎉
+생일을 더 많이 보내길 바랍니다!
+🎊</div>
+
+        <img
+          class="imagen-decorativa decor-1"
+          src="recursos/d.png"
+          alt="Decoración 1"
+          aria-label="Decoración 1"
+        />
+
+        <img
+          class="imagen-decorativa decor-2"
+          src="recursos/jb.png"
+          alt="Decoración 2"
+          aria-label="Decoración 2"
+        />
+      </div>
+
+      <!--Mesa-->
+      <div class="soporte"></div>
+    </div>
+
+    <!-- Carta Modal -->
+    <div class="modal-carta" id="modalCarta">
+      <div class="contenido-carta">
+        <div class="carta">
+          <h2></h2>
+          <p>
+            
+
+En este día tan especial, quiero desearte un 
+feliz cumpleaños Eres una persona increíble y mereces 
+todo lo mejor en tu vida. Que este nuevo año te traiga 
+éxito, salud y felicidad. Gracias por haber sido parte de mi vida 
+y por compartir tantos momentos maravillosos juntos. 
+¡Feliz cumpleaños Carol❤️!
+          </p>
+          <p class="firma">Con cariño<br />🍐</p>
+        </div>
+      </div>
+    </div>
+
+    <!--Confeti Delante-->
+    <canvas id="canvas2"></canvas>
+
+    <!--Todo Oscuro-->
+    <audio id="soplido" src="recursos/soplar1.mp3" preload="auto"></audio>
+    <audio
+      id="cancion"
+      src="recursos/cancion.mp3"
+      preload="auto"
+    ></audio>
+    <div class="overlay"></div>
+
+    <script src="Confeti.js"></script>
+    <script src="Confeti2.js"></script>
+    <script src="Sorpresa.js"></script>
+  </body>
+</html>
+
+
